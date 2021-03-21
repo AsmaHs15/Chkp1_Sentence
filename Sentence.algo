@@ -1,0 +1,38 @@
+ALGORITHM algorithm_name
+VAR
+
+      str : STRING := "go my code."";
+      count : INTEGER := 0;
+      i : INTEGER := 0;
+
+BEGIN
+//The length of the sentence (the number of characters).
+
+   WHILE (i < str.charAt(i)  <> '.') DO
+              i++ ;        
+    END_WHILE
+        write("The length of the sentence is :" +i);
+
+//The number of words in the sentence 
+         i = 0 ;
+
+    WHILE (i < str.charAt(i)  <> '.') DO
+                
+        if (str.charAt(i) ==' ') 
+            count ++ ;
+        End_If
+     END_WHILE
+        write("The number of words in the sentence :" +count);
+
+//The number of vowels in the sentence
+    i = 0 ;
+    count = 0 ;
+
+    WHILE (i < str.charAt(i)  <> '.') DO
+                
+        if str.charAt(i) in ('a',"e","i","o","u"):  
+            count ++ ;
+        End_If
+    END_WHILE
+    write("The number of vowels in the sentence :" +count);
+END
